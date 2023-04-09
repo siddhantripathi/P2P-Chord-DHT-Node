@@ -11,7 +11,7 @@ The code provided includes classes for the Chord nodes, network, and message-pas
 
 To start a node in the network, run the node.py script and provide the following arguments
 
-python node.py [node_id] [node_ip] [node_port] [successor_ip] [successor_port]
+__python node.py [node_id] [node_ip] [node_port] [successor_ip] [successor_port]__
 
 node_id: The ID of the node, which should be a unique integer between 0 and 2^m-1 (where m is the number of bits used to represent node IDs).
 
